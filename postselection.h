@@ -21,22 +21,6 @@ using rvec_i = const RVec<int> &;
 using rvec_b = const RVec<bool> &;
 using rvec_rvec_i = const RVec<RVec<int>> &;
 
-const float TopRes_trs=  0.5411276;
-const float TopMix_trs=  0.7584613561630249;
-const float TopMer_trs=  0.8;//0.94; 0.8 for 2022 correspond to fpr 6% on ttbar
-const float dR=  0.8;
-
-const float btagDeepB_mediumWP_2018   = 0.2783;
-const float btagPNet_mediumWP_2022    = 0.245 ;
-const float btagPNet_mediumWP_2022EE  = 0.2605;
-
-const float btagDeepB_looseWP_2018   = 0.0490;
-const float btagPNet_looseWP_2022    = 0.047 ;
-const float btagPNet_looseWP_2022EE  = 0.0499;
-
-//  Top Resolved threshold {'fpr 10': 0.1334565, 'fpr 5': 0.24193972, 'fpr 1': 0.5411276, 'fpr 01': 0.77197933}
-//  Top Mixed threshold {'fpr 10': 0.13067308068275452, 'fpr 5': 0.2957885265350342, 'fpr 1': 0.7584613561630249, 'fpr 01': 0.9129540324211121}
-
 // ########################################################
 bool isMC(int SampleFlag){
   if (SampleFlag == 0) return false;
